@@ -1,0 +1,5 @@
+abstract class AppKeys {
+  static const String emailRegex =
+      r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+";
+  static const String passwordRegex =
+      r'^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&._#])[A-Za-z\d@$!%*?&._#]{6,}$';}
